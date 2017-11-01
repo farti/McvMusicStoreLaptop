@@ -8,7 +8,9 @@ namespace McvMusicStore.Models
     public class Artist
     {
         public int ArtistID { get; set; }
+
         public string Name { get; set; }
-        public List<Album> Albums  { get; set; }
+
+        public virtual List<Album> Albums  { get; set; }
     }
 }
