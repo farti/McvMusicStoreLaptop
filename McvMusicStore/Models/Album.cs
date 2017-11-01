@@ -7,9 +7,9 @@ namespace McvMusicStore.Models
         public int AlbumID { get; set; }
 
         public string Title { get; set; }
-
+        
         public Artist Artist { get; set; }
 
-        public virtual List<Review> Review { get; set; }
+        public virtual List<Review> List { get; set; }
     }
 }
